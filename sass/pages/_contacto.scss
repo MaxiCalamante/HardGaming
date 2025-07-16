@@ -1,0 +1,14 @@
+.logo-contacto {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  margin: 0 0.5rem;
+  transition: transform 0.2s;
+  vertical-align: middle;
+}
+@media (max-width: 600px) {
+  .logo-contacto {
+    width: 32px;
+    height: 32px;
+  }
+}

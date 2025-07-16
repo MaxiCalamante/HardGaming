@@ -4,60 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HardGaming</title>
-    <meta name="description" content="HardGaming - La mejor tienda de hardware gaming, periféricos y asesoramiento personalizado. Encontrá PC gamers, consolas y más.">
+    <title>HardGaming | Tienda gamer, hardware y asesoramiento</title>
+    <meta name="description" content="HardGaming: tienda gamer en Argentina. Hardware, periféricos, asesoramiento personalizado y productos destacados.">
+    <meta name="keywords" content="gaming, hardware, tienda gamer, periféricos, asesoramiento, Argentina, PC gamer, consolas">
+    <meta name="author" content="Máximo Calamante">
+    <meta name="robots" content="index, follow">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <!-- CSS -->
+    <link rel="canonical" href="https://maxicalamante.github.io/HardGaming/index.html">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
-    <!-- ========== HEADER NAVIGATION ========== -->
-    <header class="header sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+    <header class="header sticky-top" role="banner">
+        <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Menú principal">
             <div class="container-fluid">
-                <!-- Logo y marca -->
                 <a class="navbar-brand d-flex align-items-center" href="./index.html">
-                    <img class="logo me-2" src="./assets/logo.png" alt="Logo de HardGaming Store - Tienda de hardware gaming">
+                    <img class="logo me-2" src="./assets/logo.png" alt="Logo circular con joystick y texto HardGaming">
                     <span class="brand-text">HardGaming</span>
                 </a>
-
-                <!-- Botón hamburguesa para móvil -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menú">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <!-- Menú de navegación -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/tienda.html">Tienda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/referencias.html">Referencias</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/tienda.html">Tienda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/referencias.html">Referencias</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-    <!-- ========== Contenido Principal ========== -->
-    <main class="main-home">
-        <!-- Hero Section -->
+    <main class="main-home" role="main">
         <section class="hero-section py-5">
             <div class="container">
                 <div class="row justify-content-center text-center">
@@ -69,33 +51,30 @@
             </div>
         </section>
 
-        <!-- Seccion de Caracteristicas -->
         <section class="features-section py-5">
             <div class="container">
                 <div class="row g-4">
-                    <!-- Productos Destacados -->
                     <div class="col-lg-6">
-                        <article class="feature-card h-100">
+                        <article class="feature-card h-100" aria-label="Productos destacados">
                             <div class="card border-0 shadow-sm h-100">
-                                <img src="./assets/pcgamer.png" class="card-img-top" alt="PC Gamer de alta gama con componentes premium para gaming profesional">
+                                <img src="./assets/pcgamer.png" class="card-img-top" alt="Computadora gamer con luces RGB y gabinete transparente">
                                 <div class="card-body d-flex flex-column">
                                     <h2 class="card-title h4">Productos Destacados</h2>
                                     <p class="card-text flex-grow-1">Descubrí los últimos lanzamientos y los productos más elegidos por la comunidad gamer. Hardware de última generación para el máximo rendimiento.</p>
-                                    <a href="./pages/tienda.html" class="btn btn-primary btn-lg mt-auto">Ver Tienda</a>
+                                    <a href="./pages/tienda.html" class="btn btn-dark btn-lg mt-auto">Ver Tienda</a>
                                 </div>
                             </div>
                         </article>
                     </div>
 
-                    <!-- Asesoramiento Personalizado -->
                     <div class="col-lg-6">
-                        <article class="feature-card h-100">
+                        <article class="feature-card h-100" aria-label="Asesoramiento personalizado">
                             <div class="card border-0 shadow-sm h-100">
-                                <img src="./assets/contacto.webp" class="card-img-top" alt="Asesoramiento personalizado para gamers - consultoría especializada en hardware">
+                                <img src="./assets/contacto.webp" class="card-img-top" alt="Mesa de trabajo con dos personas charlando y una notebook encendida">
                                 <div class="card-body d-flex flex-column">
                                     <h2 class="card-title h4">Asesoramiento Personalizado</h2>
                                     <p class="card-text flex-grow-1">¿Tenés dudas? Nuestro equipo de expertos te ayuda a elegir lo mejor para tu setup. Consultoría gratuita y personalizada.</p>
-                                    <a href="./pages/contacto.html" class="btn btn-outline-primary btn-lg mt-auto">Contactanos</a>
+                                    <a href="./pages/contacto.html" class="btn btn-dark btn-lg mt-auto">Contactanos</a>
                                 </div>
                             </div>
                         </article>
@@ -105,8 +84,7 @@
         </section>
     </main>
 
-    <!-- ========== FOOTER ========== -->
-    <footer class="footer bg-dark text-light py-4 mt-5">
+    <footer class="footer bg-dark text-light py-4 mt-5" role="contentinfo">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -122,8 +100,7 @@
         </div>
     </footer>
 
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
